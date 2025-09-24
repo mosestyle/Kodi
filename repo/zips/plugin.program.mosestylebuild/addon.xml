@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.mosestylebuild" name="Mosestyle Build Installer" version="1.5.2" provider-name="Mosestyle">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Install Mosestyle's Kodi build</summary>
+    <description>Downloads build, applies global settings, auto-enables add-ons and switches skin.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

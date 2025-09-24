@@ -1,0 +1,14 @@
+<settings>
+  <category label="Build">
+    <setting id="build_url" type="text" label="Build ZIP URL"
+      default="https://raw.githubusercontent.com/mosestyle/kodi/master/builds/mosestyle-omega-1.0.0.zip" />
+    <setting id="fresh" type="bool" label="Fresh install (wipe most user data first)" default="false" />
+  </category>
+  <category label="Automation">
+    <setting id="enable_unknown_sources" type="bool" label="Enable 'Unknown sources'" default="true" />
+    <setting id="auto_enable_addons" type="bool" label="Auto-enable add-ons included in build" default="true" />
+    <setting id="auto_set_skin" type="bool" label="Auto-switch to build’s skin" default="true" />
+    <setting id="skin_id_override" type="text" label="(Optional) Force skin id (e.g. skin.fentastic)" default="" />
+    <setting id="auto_restart" type="bool" label="Restart Kodi when finished" default="false" />
+  </category>
+</settings>
